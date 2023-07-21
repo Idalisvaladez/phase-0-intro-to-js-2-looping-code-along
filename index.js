@@ -1,1 +1,44 @@
-// Code your solutions in this file
+/*
+const gifts = ["teddy bear", "drone", "doll"];
+
+function wrapGifts(gifts) {
+    for (let i = 0; i < gifts.length; i++) {
+        console.log(`Wrapped ${gifts[i]} and added a bow!`);
+    }
+    return gifts;
+}
+
+wrapGifts(gifts);
+
+
+
+function writeCards(names, eventName) {
+    for (let names = 0; names < writeCards.length; names++) {
+        const newWriteCards = {...writeCards}
+        return (`Thank you, ${names} for the wonderful ${eventName} gifts!`)
+    }
+    return newWriteCards;
+}
+*/
+
+
+const shoppingCart = []
+
+function writeCards(names, eventName) {
+    for (let i = 0; i < names.length; i++) {
+        shoppingCart.push(`Thank you, ${names[i]}, for the wonderful ${eventName} gift!`)
+    }
+    return shoppingCart;
+}
+
+
+
+
+// console.log(writeCards(["Charlie", "Samip", "Ali"], "birthday"))
+
+
+function countDown(number) {
+    while (number >= 0) {
+        console.log(number--);
+    }
+}
